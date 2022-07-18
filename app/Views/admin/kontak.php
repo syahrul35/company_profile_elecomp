@@ -1,6 +1,6 @@
-<?= $this->extend('template/header'); ?>
+<?= $this->extend('template/navbar_admin'); ?>
 <?= $this->section('content'); ?>
 
-<h1>Kategori</h1>
+<h1>Kontak</h1>
 
 <?= $this->endSection(); ?>

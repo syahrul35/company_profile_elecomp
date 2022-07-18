@@ -13,46 +13,46 @@
 <body>
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/beranda">
+      <a class="navbar-brand" href="/admin/beranda">
         <img src="/assets/images/elecomp.png" alt="" width="auto" height="50">
       </a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <img src="/assets/icons/home-fill.svg" alt="" width="30" height="24" class="ms-4">
-            <a class="nav-link active" aria-current="page" href="/beranda">Beranda</a>
+            <a class="nav-link active" aria-current="page" href="/admin/beranda">Beranda</a>
           </li>
           <li class="nav-item">
             <img src="/assets/icons/sliders.svg" alt="" width="30" height="24" class="ms-2">
-            <a class="nav-link active" aria-current="page" href="/slider">Slider</a>
+            <a class="nav-link active" aria-current="page" href="/admin/slider">Slider</a>
           </li>
           <li class="nav-item">
             <img src="/assets/icons/info.svg" alt="" width="30" height="24" class="ms-4">
-            <a class="nav-link active" aria-current="page" href="/tentang">Tentang</a>
+            <a class="nav-link active" aria-current="page" href="/admin/tentang">Tentang</a>
           </li>
           <li class="nav-item">
             <img src="/assets/icons/phone-call.png" alt="" width="30" height="24" class="ms-2">
-            <a class="nav-link active" aria-current="page" href="/kontak">Kontak</a>
+            <a class="nav-link active" aria-current="page" href="/admin/kontak">Kontak</a>
           </li>
           <li class="nav-item">
             <img src="/assets/icons/menu.png" alt="" width="30" height="24" class="ms-4">
-            <a class="nav-link active" aria-current="page" href="/layanan">Layanan</a>
+            <a class="nav-link active" aria-current="page" href="/admin/layanan">Layanan</a>
           </li>
           <li class="nav-item">
             <img src="/assets/icons/menu.png" alt="" width="30" height="24" class="ms-4">
-            <a class="nav-link active" aria-current="page" href="/kategori">Kategori</a>
+            <a class="nav-link active" aria-current="page" href="/admin/kategori">Kategori</a>
           </li>
           <li class="nav-item">
             <img src="/assets/icons/gallery.png" alt="" width="30" height="24" class="ms-3">
-            <a class="nav-link active" aria-current="page" href="/galeri">Galeri</a>
+            <a class="nav-link active" aria-current="page" href="/admin/galeri">Galeri</a>
           </li>
           <li class="nav-item">
             <img src="/assets/icons/gallery.png" alt="" width="30" height="24" class="ms-3">
-            <a class="nav-link active" aria-current="page" href="/album">Album</a>
+            <a class="nav-link active" aria-current="page" href="/admin/album">Album</a>
           </li>
           <li class="nav-item">
             <img src="/assets/icons/power-off.png" alt="" width="30" height="24" class="ms-4">
-            <a class="nav-link active" aria-current="page" href="/logout">Logout</a>
+            <a class="nav-link active" aria-current="page" href="/admin/logout">Logout</a>
           </li>
         </ul>
         <form class="d-flex" role="search">

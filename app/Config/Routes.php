@@ -36,16 +36,31 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
-$routes->get('/', 'HeaderController::index');
-$routes->get('/beranda', 'HeaderController::beranda');
-$routes->get('/slider', 'HeaderController::slider');
-$routes->get('/tentang', 'HeaderController::tentang');
-$routes->get('/kontak', 'HeaderController::kontak');
-$routes->get('/layanan', 'HeaderController::layanan');
-$routes->get('/kategori', 'HeaderController::kategori');
-$routes->get('/galeri', 'HeaderController::galeri');
-$routes->get('/album', 'HeaderController::album');
-$routes->get('/logout', 'HeaderController::logout');
+//  Berikut adalah routes yang digunakan pada halaman admin
+$routes->group('admin', function ($routes) {
+    $routes->add('/', 'admin\NavbarController::index');
+    $routes->add('beranda', 'admin\NavbarController::beranda');
+    $routes->add('slider', 'admin\NavbarController::slider');
+    $routes->add('tentang', 'admin\NavbarController::tentang');
+    $routes->add('kontak', 'admin\NavbarController::kontak');
+    $routes->add('layanan', 'admin\NavbarController::layanan');
+    $routes->add('kategori', 'admin\NavbarController::kategori');
+    $routes->add('galeri', 'admin\NavbarController::galeri');
+    $routes->add('album', 'admin\NavbarController::album');
+    $routes->add('logout', 'admin\NavbarController::logout');
+});
+
+// -----------------------------------------------------------------------------------------------  //
+
+//  Berikut adalah routes yang digunakan pada halaman user
+$routes->group('elecomp', function ($routes) {
+    $routes->add('/', 'user\NavbarUserController::beranda');
+    $routes->add('tentang', 'user\NavbarUserController::tentang');
+    $routes->add('produk', 'user\NavbarUserController::produk');
+    $routes->add('galeri', 'user\NavbarUserController::galeri');
+    $routes->add('kontak', 'user\NavbarUserController::kontak');
+});
+
 
 /*
  * --------------------------------------------------------------------

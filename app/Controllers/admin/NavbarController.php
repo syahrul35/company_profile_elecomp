@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\admin;
 
 use App\Controllers\BaseController;
 
-class HeaderController extends BaseController
+class NavbarController extends BaseController
 {
     public function index()
     {
@@ -13,42 +13,42 @@ class HeaderController extends BaseController
 
     public function beranda()
     {
-        return view('/tampilan/beranda/beranda');
+        return view('/admin/beranda');
     }
 
     public function slider()
     {
-        return view('/tampilan/slider/slider');
+        return view('/admin/slider');
     }
 
     public function tentang()
     {
-        return view('/tampilan/tentang/tentang');
+        return view('/admin/tentang');
     }
 
     public function kontak()
     {
-        return view('/tampilan/kontak/kontak');
+        return view('/admin/kontak');
     }
 
     public function layanan()
     {
-        return view('/tampilan/layanan/layanan');
+        return view('/admin/layanan');
     }
 
     public function kategori()
     {
-        return view('/tampilan/kategori/kategori');
+        return view('/admin/kategori');
     }
 
     public function galeri()
     {
-        return view('/tampilan/galeri/galeri');
+        return view('/admin/galeri');
     }
 
     public function album()
     {
-        return view('/tampilan/album/album');
+        return view('/admin/album');
     }
 
     public function logout()

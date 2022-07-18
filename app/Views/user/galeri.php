@@ -1,0 +1,1 @@
+<h1>Galeri Foto</h1>
