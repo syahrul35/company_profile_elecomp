@@ -26,6 +26,11 @@ class NavbarUserController extends BaseController
         return view('user/galeri');
     }
 
+    public function pameran()
+    {
+        return view('user/pameran');
+    }
+
     public function kontak()
     {
         return view('user/hubungi');

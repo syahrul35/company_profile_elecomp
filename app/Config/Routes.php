@@ -58,6 +58,7 @@ $routes->group('elecomp', function ($routes) {
     $routes->add('tentang', 'user\NavbarUserController::tentang');
     $routes->add('produk', 'user\NavbarUserController::produk');
     $routes->add('galeri', 'user\NavbarUserController::galeri');
+    $routes->add('pameran', 'user\NavbarUserController::pameran');
     $routes->add('kontak', 'user\NavbarUserController::kontak');
 });
 

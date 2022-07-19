@@ -13,6 +13,12 @@ h1,h2,h3 {
     font-size: 1.6em;
 }
 
+h5{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
 p{
     font-family: 'Cabin', sans-serif;
     font-size: 1.1em;
@@ -47,7 +53,7 @@ p{
     position: absolute;
     margin: 0;
     color: white;
-    font-family: monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     font-size: 50px;
     width: 100%;
@@ -112,6 +118,10 @@ div.galeri > div.row > div > img{
     max-height: 240px;
 }
 
+
+div.row > div.contact > .contact-info{
+    margin-top: 2em;
+}
 
 footer{
     color: white;
