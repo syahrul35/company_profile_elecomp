@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="/css/beranda_style.css">
 
 <div class="landing-page">
+    <h2 class="welcome">BERANDA</h2>
 </div>
 
 <div class="mt-4 mb-4">
@@ -11,7 +12,7 @@
 </div>
 
 <div class="row">
-    <div class="col-md-5 col-sm-6 col-xs-12">
+    <div class="col-md-6 col-sm-6 col-xs-12">
         <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste perferendis suscipit nulla aspernatur voluptatibus maxime neque consequatur dignissimos asperiores, provident totam distinctio dolor, obcaecati sunt tempore qui explicabo quis corporis.
             Molestiae autem perspiciatis, voluptas id voluptatibus dolor nulla, dolorum voluptates veniam at consequuntur, temporibus in nostrum libero porro expedita ab? Laudantium veniam, at deserunt cum sed non quas inventore. Rem.
@@ -31,10 +32,7 @@
         <a href="/elecomp/tentang" class="btn btn-danger mt-4" role="button">Baca Selengkapnya</a>
     </div>
 
-    <div class="col-md-2">
-    </div>
-
-    <div class="col-md-5 col-sm-6 col-xs-12 mt-5">
+    <div class="col-md-6 col-sm-6 col-xs-12 mt-5 img-side">
         <a href="/elecomp/tentang">
             <img src="/assets/images/elecomp.png" alt="">
         </a>
@@ -46,7 +44,7 @@
     <div class="background-galeri mb-2">
         <h2 class="title-galeri">Galeri Foto</h2>
     </div>
-    <div class="row">
+    <div class="row galeri-row">
         <div class="col-md-4 col-sm-4 col-xs-12">
             <img src="/assets/images/website2.png" alt="">
         </div>
@@ -60,4 +58,3 @@
 </div>
 
 <?= $this->endSection(); ?>
-
