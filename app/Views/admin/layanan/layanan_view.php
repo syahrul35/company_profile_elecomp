@@ -39,7 +39,7 @@
                         <td class="col-2">Deskripsi Layanan (English)</td>
                         <td class="col-1">
                             <div class="mb-2">
-                                <a href="#" class="btn btn-warning">Edit</a>
+                                <a href="/admin/layanan/edit" class="btn btn-warning">Edit</a>
                             </div>
                             <div class="mb-2">
                                 <a href="#" class="btn btn-danger">Hapus</a>

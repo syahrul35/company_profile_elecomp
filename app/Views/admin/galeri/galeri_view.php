@@ -5,12 +5,12 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Slider</h2>
+                <h2>Galeri</h2>
             </div>
         </div>
     </div>
     <hr>
-    <a href="/Mahasiswa/Add" class="btn btn-primary"><span class="fa fa-plus"></span>Tambah Slider</a>
+    <a href="/Mahasiswa/Add" class="btn btn-primary"><span class="fa fa-plus"></span>Tambah Galeri</a>
     <hr>
     <?php if (!empty(session()->getFlashdata('berhasil'))) { ?>
         <div class="alert alert-success">
@@ -24,7 +24,7 @@
                 <table class="table table-bordered">
                     <tr>
                         <th>no</th>
-                        <th>gambar slider</th>
+                        <th>Gambar Galeri</th>
                         <th>action</th>
                     </tr>
 
@@ -32,7 +32,7 @@
                         <td class="col-1">1</td>
                         <td class="col-8">gambar</td>
                         <td class="col-3">
-                            <a href="#" class="btn btn-warning">Edit</a>
+                            <a href="/admin/galeri/edit" class="btn btn-warning">Edit</a>
                             <a href="#" class="btn btn-danger">Hapus</a>
                         </td>
                     </tr>

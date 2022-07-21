@@ -48,6 +48,14 @@ $routes->group('admin', function ($routes) {
     $routes->add('galeri', 'admin\NavbarController::galeri');
     $routes->add('album', 'admin\NavbarController::album');
     $routes->add('logout', 'admin\NavbarController::logout');
+
+    // ------------------- CRUD Admin -------------------------- //
+    $routes->add('slider/edit', 'admin\NavbarController::edit_slider');
+    $routes->add('tentang/edit', 'admin\NavbarController::edit_tentang');
+    $routes->add('layanan/edit', 'admin\NavbarController::edit_layanan');
+    $routes->add('kategori/edit', 'admin\NavbarController::edit_kategori');
+    $routes->add('galeri/edit', 'admin\NavbarController::edit_galeri');
+    $routes->add('album/edit', 'admin\NavbarController::edit_album');
 });
 
 // -----------------------------------------------------------------------------------------------  //

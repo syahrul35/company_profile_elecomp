@@ -37,7 +37,7 @@
                         <td class="col-4">Album</td>
                         <td class="col-4">Album (English)</td>
                         <td class="col-3">
-                            <a href="#" class="btn btn-warning">Edit</a>
+                            <a href="/admin/album/edit" class="btn btn-warning">Edit</a>
                             <a href="#" class="btn btn-danger">Hapus</a>
                         </td>
                     </tr>

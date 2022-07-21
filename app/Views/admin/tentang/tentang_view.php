@@ -24,15 +24,17 @@
                         <th>gambar</th>
                         <th>nama depan</th>
                         <th>deskripsi</th>
+                        <th>deskripsi (English)</th>
                         <th>action</th>
                     </tr>
 
                     <tr>
                         <td class="col-2">gambar</td>
-                        <td class="col-3">nama depan</td>
-                        <td class="col-6">deskripsi</td>
+                        <td class="col-2">nama depan</td>
+                        <td class="col-3">deskripsi</td>
+                        <td class="col-3">deskripsi (English)</td>
                         <td class="col-1">
-                            <a href="#" class="btn btn-warning">Edit</a>
+                            <a href="/admin/tentang/edit" class="btn btn-warning">Edit</a>
                         </td>
                     </tr>
                 </table>
